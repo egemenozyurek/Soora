@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    .content {
+        @apply mx-auto my-7 w-4 items-center font-inter font-semibold
+    }
+
+    .container {
+        @apply flex-1 items-center
+    }
+
+    .textStyle {
+        @apply font-inter text-[#000] font-bold mt-2 mb-8
+    }
+
+    .h1 {
+        @apply flex mx-auto text-center leading-loose items-center
+    }
+
+    .landingImage {
+        @apply max-w-lg max-h-14
+    }
+}
